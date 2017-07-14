@@ -7,10 +7,14 @@
  *   that they scored an A
  * 
  * ** Modify the program so that it will notify the user of their letter grade
+ * 
+ * Start:
+ * Stop:
+ * *
+ * **
  */
 
 int main(int argc, char *argv[])
 {
     return 0;
 }
-
