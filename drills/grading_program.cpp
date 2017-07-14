@@ -8,29 +8,13 @@
  * 
  * ** Modify the program so that it will notify the user of their letter grade
  * 
- * Start: 1:27 PM
- * Stop: 1:35
+ * Start: 1:45
+ * Stop:  
  * *
  * **
  */
 
-#include <iostream>
-#include <fstream>
-
-using namespace std;
-
-ofstream fout("output.txt");
-
 int main(int argc, char *argv[])
 {
-    int a;
-    cout << "Please enter your programming grade: ";
-    cin >> a;
-    
-    if (a == 100)
-        cout << "You got a perfect score!\n";
-    
-    fout << a;
-    
     return 0;
 }
