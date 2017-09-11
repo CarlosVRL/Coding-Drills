@@ -28,9 +28,10 @@ int main(void)
     VendingMachine vendingMachine;
     
     // Present all available options to the user
+    cout << "Please select a beverage:\n\n";
     vendingMachine.listBeverages();
     
-    // Retrieve user input
+    // Retrieve user selection
     cout << "\n >> ";
     int choice = 0;
     cin >> choice;
