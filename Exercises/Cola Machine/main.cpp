@@ -30,12 +30,13 @@ int main(void)
     // Present all available options to the user
     vendingMachine.listBeverages();
     
+    // Retrieve user input
     cout << "\n >> ";
     int choice = 0;
     cin >> choice;
     cout << endl;
     
-    // Vend the beverage based on enumeration
+    // Vend the beverage based on choice, validation enforced
     vendingMachine.vendBeverage(choice);
     
     return 0;
