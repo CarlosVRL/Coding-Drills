@@ -28,7 +28,6 @@ public:
     
     void listBeverages(void)
     {
-        std::cout << "Please select a beverage:\n\n";
         IndexToBeverage::iterator it = beverages.begin();
         IndexToBeverage::iterator et = beverages.end();
         for (;it != et; ++it)
@@ -48,8 +47,8 @@ public:
             std::cout << "Error. choice was not valid, here is your money back.\n";
             return;
         }
-        
-        std::cout << "Excellent choice! Enjoy your cool, refreshing " << it->second << "!\n";
+        string beverage = it->second;
+        std::cout << "Excellent choice! Enjoy your cool, refreshing " << beverage << "!\n";
     }    
 };
 
